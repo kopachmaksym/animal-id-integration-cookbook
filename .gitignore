@@ -1,0 +1,16 @@
+# secrets — never commit API credentials
+.env
+*.key
+secrets*.json
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# os / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
