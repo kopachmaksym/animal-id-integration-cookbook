@@ -30,7 +30,17 @@ The human supplied two things the AI could not: **API credentials** and a handfu
 
 That's the second point of this repo — if an AI agent can integrate this API end to end, so can your team.
 
-See [`case-studies/green-pines`](case-studies/green-pines/README.md) for what was built, screenshots, and how long each part took.
+---
+
+## What it looks like in practice
+
+A microchip lookup on the clinic's **own** home page — one API call, no login, no redirect to `animal-id.net`:
+
+[![Microchip lookup on a clinic's own home page, showing a matched pet from the Animal-ID registry](case-studies/green-pines/images/public-lookup.png)](case-studies/green-pines/README.md)
+
+The same integration also puts registry pets in the booking flow, the global medical record in the client portal, and the owner's other animals in the staff CRM.
+
+**→ [See all five screens, the API call behind each, and what it cost](case-studies/green-pines/README.md)**
 
 ---
 
